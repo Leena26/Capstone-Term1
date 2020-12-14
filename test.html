@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test your knowledge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./test.css">
+</head>
+<body>
+    <nav role="navigation">
+        <div id="menuToggle">
+          
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+         
+          <ul id="menu">
+            <a href="./index.html"><li>Home</li></a>
+            <a href="./what.html"><li>What</li></a>
+            <a href="numbers.html"><li>Statistics</li></a>
+            <a href="./solution.html"><li>Solution</li></a>
+            <a href="./test.html"><li>Quiz</li></a>
+            <a href="./about.html"><li>About</li></a>
+          </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="main">
+        <div class="header">
+            <header>
+                <div class="all">
+                    <div id="solution">
+                        <h1>Let's see what you know!</h1>
+                        <p>The World Bank aims to end extreme poverty,
+                            <br>
+                            or those who live on $1.90 a day, by 2030.
+                        </p>
+                    </div>
+                    <img id="himg" src="./assets/arrow.png" alt="" srcset="">
+                </div>
+            </header>
+        </div>
+
+
+        <main role="main">
+            <article id="quiz" class="quiz-intro">
+              <div id="quiz-bg"></div>
+              <section id="quiz-body">
+                <h1>Poverty Quiz</h1>
+                <button type="button" id="start-quiz-btn" class="btn blue-btn rounded-corners">Start</button>
+              </section>
+            </article>
+          
+            <button type="button" id="shortcuts-info-btn">Keyboard shortcuts</button>
+          
+            <aside class="shortcuts-info">
+              <p><span class="tag">Space</span> - start quiz / go to next question</p>
+              <p><span class="tag">1</span> - <span class="tag">4</span> - choose an answer</p>
+            </aside>
+          </main>
+          
+   </div>
+
+<script src="./quiz.js"></script>
+</body>
+</html>
